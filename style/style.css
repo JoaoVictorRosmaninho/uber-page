@@ -1,6 +1,9 @@
 * {
  margin: 0px; 
- padding: 0px; 
+ padding: 0px;
+ border: 0; 
+ font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ box-sizing: border-box;
 }
 header {
   height: 64px;
@@ -15,20 +18,35 @@ header {
 
 
 .header-menu-style {
- margin: 20px 0px; 
+ margin: 20px 0px;
 } 
 
 header > div {
   margin: 0px 40px;
 }
+.btn-header {
+  display: inline-flex;  
+  padding: 10px 12px; 
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px; 
+  border-bottom-right-radius: 30px; 
+  border-top-right-radius: 30px;
+  background-color:  #000000;
+  color: #FFFFFF;
+  transition-duration: 200ms; 
+
+} 
+
+.btn-header div {
+  margin-right: 10px;
+}
 
 div a {
-font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 18px;
-text-decoration: none; 
-font-weight: 400;
-margin: 0 2px;
-padding: 0 2px;
-color: #FFFFFF;
+  font-size: 18px;
+  text-decoration: none; 
+  font-weight: 400;
+  margin: 0 2px;
+  color: #FFFFFF;
+  padding: 0 2px;
 }
 
