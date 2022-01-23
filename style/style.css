@@ -5,6 +5,11 @@
  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
  box-sizing: border-box;
 }
+
+body {
+  max-height: 768px;
+  max-width: 1366px;  
+}
 header {
   display: flex; 
   justify-content: space-between;
