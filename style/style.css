@@ -13,7 +13,13 @@ header {
   background-color: #000000;
 }
 
-
+a {
+  padding: 10px;
+}
+a:hover { 
+  border-radius: 30px;
+  background-color: #333333;
+}
 
 .header-container {
     display: flex;
@@ -43,6 +49,10 @@ header {
   color: #FFFFFF;
 } 
 
+.btn-header:hover {
+  border-radius: 30px;
+  background-color: #333333;
+}
 .btn-header div {
   margin-right: 15px;
 }
@@ -157,6 +167,7 @@ footer {
   align-items: center;
 }
 
+
 .footer-first-part {
     display: flex;
     justify-content: space-between;
@@ -169,6 +180,9 @@ footer {
   font-size: 28px; 
 }
 
+.footer-line-margin {
+  margin-top: 40px;
+}
 .footer-text-title {
   font-weight: 500;
   font-size: 18px;
@@ -181,8 +195,11 @@ footer {
 }
 
 .footer-text-bottom {
-  border-bottom: 1px solid white;
   padding-bottom: 45px; 
+}
+
+.footer-text-bottom:hover {
+  border-bottom: 1px solid white;
 }
 
 .footer-text-block {
